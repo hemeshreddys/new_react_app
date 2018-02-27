@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Page from './Page';
 class App extends Component {
   render() {
     const classFlex ={
@@ -7,11 +8,13 @@ class App extends Component {
       justifyContent:'center',
       alignItems:'center',
       height:'100vh',
-      fontSize:'45px'
+      fontSize:'45px',
+      color:'#204E4A',
+      backgroundColor:'#9FCC2E'
     }
     return (
       <div style={classFlex}>
-          <h1>Coming Soon...</h1>
+        <Page/>
       </div>
     );
   }
