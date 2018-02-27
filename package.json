@@ -2,8 +2,10 @@
   "name": "new-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://hemeshreddys.github.io/new_react_app",
+  "homepage": "https://hemeshreddys.github.io/new_react_app",
   "dependencies": {
+    "gh-pages": "^1.1.0",
+    "google-books-search": "^0.3.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"
@@ -17,4 +19,3 @@
     "eject": "react-scripts eject"
   }
 }
-
